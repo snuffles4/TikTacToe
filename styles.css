@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+}
+
+.board {
+    padding: 3em;
+    text-align: center;
+}
+
+.row>div {
+    float: left;
+    height: 100px;
+    width: 100px;
+}
+
+.row {
+    clear: both;
+    margin: auto;
+    width: 302px;
+}
+
+.row:hover {
+    cursor: pointer;
+}
+
+.top {
+    border-bottom: 1px black solid;
+}
+
+.topmiddle {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.middle {}
+
+.middleleft {
+    border-right: 1px solid black;
+}
+
+.middleright {
+    border-left: 1px solid black;
+}
+
+.bottom {
+    border-top: 1px solid black;
+}
+
+.bottommiddle {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
